@@ -1,8 +1,7 @@
 "use client";
 import { useState } from "react";
 
-// TODO: replace YOUR_FORM_ID with your real Formspree form ID (e.g. https://formspree.io/f/abcdwxyz)
-const FORMSPREE_ENDPOINT = "https://formspree.io/f/YOUR_FORM_ID";
+const FORMSPREE_ENDPOINT = "https://formspree.io/f/mvzndkgg";
 
 export default function Contact() {
   const [status, setStatus] = useState("idle");

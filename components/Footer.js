@@ -7,8 +7,7 @@ export default function Footer() {
         <img src="/logo.png" alt="Murdy Pickle Society" className="h-16 w-auto" />
         <div className="flex items-center gap-6 text-xs uppercase tracking-widest text-[var(--muted)]">
           <a href={ETSY_SHOP} target="_blank" rel="noopener noreferrer" className="hover:text-[var(--acid)]">Etsy</a>
-          {/* TODO: paste your Instagram URL below */}
-          <a href="#" className="hover:text-[var(--acid)]">Instagram</a>
+          <a href="https://www.instagram.com/murdypicklesociety/" target="_blank" rel="noopener noreferrer" className="hover:text-[var(--acid)]">Instagram</a>
           <span>© {new Date().getFullYear()} Murdy Pickle Society</span>
         </div>
       </div>
