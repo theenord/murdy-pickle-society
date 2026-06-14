@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const ETSY_SHOP = "https://www.etsy.com/shop/MurdyPickleSociety";
 
 export default function Header() {
@@ -5,7 +7,7 @@ export default function Header() {
     <header className="sticky top-0 z-50 backdrop-blur bg-[rgba(11,11,11,0.82)] border-b-2 border-[var(--acid)]">
       <div className="max-w-6xl mx-auto px-4 h-16 flex items-center justify-between gap-4">
         <a href="#top" className="flex items-center shrink-0">
-          <img src="/logo.png" alt="Murdy Pickle Society" className="h-11 sm:h-12 w-auto" />
+          <Image src="/logo.png" alt="Murdy Pickle Society" width={768} height={634} priority sizes="58px" className="h-11 sm:h-12 w-auto" />
         </a>
         <nav className="hidden sm:flex items-center gap-6 text-sm uppercase tracking-widest">
           <a href="#shop" className="hover:text-[var(--acid)] transition-colors">Shop</a>

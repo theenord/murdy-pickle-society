@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const ETSY_SHOP = "https://www.etsy.com/shop/MurdyPickleSociety";
 
 export default function Hero() {
@@ -6,7 +8,7 @@ export default function Hero() {
       <div className="max-w-6xl mx-auto px-4 py-16 sm:py-24 text-center">
         <p className="uppercase tracking-[0.3em] text-[var(--acid)] text-xs sm:text-sm mb-6">Born on borrowed blacktop</p>
         <h1 className="sr-only">Murdy Pickle Society Pickleball Apparel</h1>
-        <img src="/logo.png" alt="Murdy Pickle Society" className="w-64 sm:w-80 md:w-96 h-auto mx-auto" />
+        <Image src="/logo.png" alt="Murdy Pickle Society" width={768} height={634} priority sizes="(min-width: 768px) 384px, (min-width: 640px) 320px, 256px" className="w-64 sm:w-80 md:w-96 h-auto mx-auto" />
         <p className="mt-8 max-w-xl mx-auto text-[var(--muted)] text-base sm:text-lg">
           We taped our own lines on the blacktop and never asked permission. Samurai grit, punk edge, a streak of midnight horror. Armor for a game that belongs to anyone willing to show up. Paddles up.
         </p>
